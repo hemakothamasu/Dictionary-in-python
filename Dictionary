@@ -1,0 +1,14 @@
+a={1:"Jan", 2:"Feb", 3:"March", 4:"April", 5:['May','June','July']}
+print(a)
+print(a[5])
+b={'m':'Monday','t':'Tuesday', 'w':'wednesday', 't':{1:'Thursday',2:'Friday',3:'saturday'}}
+print(b['t'][1])
+a[5]='Sunday'
+print(a)
+a.pop(4)
+print(a)
+print(b)
+b.popitem()
+print(b)
+b.clear()
+print(b)
